@@ -1,0 +1,148 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 2em;
+}
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+main .Trekkershighlights .box1 .box0 .cta button {
+  border: 1px solid;
+  width: 28px;
+  height: 28px;
+  border-radius: 40px;
+  background-color: rgba(128, 128, 128, 0.288);
+  color: white;
+}
+main .Trekkershighlights .box1 .box0 .cta {
+  display: flex;
+  gap: 8px;
+}
+main .Trekkershighlights .box1 .cta .btn {
+  align-self: center;
+}
+main .Trekkershighlights .box1 .box4 video {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid blanchedalmond;
+}
+
+main .Trekkershighlights .box1 .box3 img {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+main .Trekkershighlights .box3 {
+  display: flex;
+  gap: 20px;
+}
+main .Trekkershighlights .box1 {
+  display: flex;
+  gap: 20px;
+}
+main .Trekkershighlights .box1 .box3 button {
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 100px;
+}
+main .Trekkershighlights {
+  padding-top: 70px;
+}
+main .Trekkershighlights {
+  position: relative; /* Position relative pour que les éléments à l'intérieur utilisent un positionnement absolu */
+  padding-top: 70px;
+}
+
+main .btnr {
+  position: absolute;
+  bottom: 20px; /* Placer à 20px du bas de la section */
+  right: 20px; /* Placer à 20px de la droite de la section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .btnr button {
+  width: 50px; /* Largeur du bouton */
+  height: 50px; /* Hauteur du bouton */
+  border-radius: 50%; /* Pour rendre le bouton rond */
+  background-color: #000; /* Couleur de fond */
+  color: white; /* Couleur du texte ou icône */
+  border: none; /* Suppression de la bordure */
+  font-size: 1.5em; /* Taille du texte ou icône (si c'est une flèche) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Changer le curseur en pointeur */
+}
+
+main .btnr button:hover {
+  background-color: #444; /* Couleur au survol */
+}
+
+footer {
+  margin-left: none;
+  margin-right: none;
+}
+footer .get {
+  background-color: rgba(128, 128, 128, 0.619);
+  width: 100%;
+  height: 40vh;
+}
+footer .get h1 {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+footer .get .btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+footer .get .btn .btn1 input {
+  border-radius: 20px;
+  border: 1px white;
+}
+footer .get .btn .btn2 button {
+  border-radius: 20px;
+  border: 1px black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 20px;
+  width: 80px;
+}
+footer .get p {
+  color: white;
+  text-align: center;
+}
+footer .get span {
+  text-decoration: underline;
+}
+footer .page .blog div img {
+  width: 100px;
+}
+footer .page .blog {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+footer .pieddepage {
+  background-color: black;
+  color: white;
+  height: 4vh;
+}
+footer .pieddepage p {
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 0.5em;
+}

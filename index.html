@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="publics/assets/style.css" />
+    <title>Destination de rêve</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="publics/tailwindcss.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body>
+    <header
+      class="bg-white h-fit z-[2] fixed w-full left-0 group xl:flex xl:justify-between xl:items-center"
+    >
+      <div
+        class="rounded-xl border border-blue-500 ring-2 ring-blue-700 p-2 text-blue-500 w-fit m-2 sm:hidden"
+      >
+        Menu
+      </div>
+      <nav
+        class="flex flex-col sm:flex-row justify-between items-center p-4 sm:10 gap-10 sm:gap-36 max-w-screen-2xl mx-auto hidden group-hover:flex sm:flex"
+      >
+        <img src="publics/assets/images/logo.jpg" alt="logo" class="w-20" />
+
+        <ul
+          class="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-10 lg:gap-16 2xl:gap-20"
+        >
+          <li>
+            <a class="no-underline text-black font-bold" href="#">Accueil</a>
+          </li>
+          <li>
+            <a class="no-underline text-black font-bold" href="#"
+              >Destination</a
+            >
+          </li>
+          <li>
+            <a class="no-underline text-black font-bold" href="#">A propos</a>
+          </li>
+          <li>
+            <a class="no-underline text-black font-bold" href="#">Contact</a>
+          </li>
+          <li>
+            <a class="no-underline text-black font-bold" href="#"
+              >Réservation</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="p-5 flex hidden group-hover:flex sm:flex justify-center items-center gap-2"
+      >
+        <form action="get">
+          <input
+            type="text"
+            placeholder="recherche..."
+            class="border border-black rounded-[20px] w-fit p-2"
+          />
+        </form>
+        <button
+          class="rounded-[20px] bg-black border-2 border-black text-white p-2 shrink-0"
+        >
+          se connecter
+        </button>
+      </div>
+    </header>
+    <main class="px-5 max-w-screen-2xl mx-auto">
+      <section
+        class="flex justify-between pt-24 bg-no-repeat bg-right"
+        style="
+          background-image: url(publics/assets/images//carte\ du\ monde.jpg);
+        "
+      >
+        <div>
+          <h1 class="text-[3.5em] text-[#0091ff]">
+            Découvrez <br />les Merveilles Cachées<br />
+            du Monde
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia<br />
+            suscipit, doloremque reiciendis explicabo exercitationem dicta<br />
+            nesciunt eaque odit dolor molestiae nesciunt eaque odit dolor
+          </p>
+          <button
+            class="border border-black rounded-[20px] bg-black text-white"
+          >
+            s'enregistrer
+          </button>
+        </div>
+        <div class="flex gap-10">
+          <div class="self-center">
+            <img
+              src="publics/assets/images/destination 1.jpg"
+              alt="destination 1"
+              class="w-60 h-60 rounded-[20px]"
+            />
+          </div>
+          <div class="flex flex-col gap-10">
+            <div>
+              <img
+                src="publics/assets/images/destination 2.jpg"
+                alt="destination 2"
+                class="w-60 h-60 rounded-[20px]"
+              />
+            </div>
+            <div>
+              <img
+                src="publics/assets/images/destination 3.jpg"
+                alt="destination 3"
+                class="w-60 h-60 rounded-[20px]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-12">
+        <h2>Top Destinations</h2>
+        <div class="top flex justify-between">
+          <div class="flex gap-12">
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+          </div>
+          <button
+            class="h-5 self-center border border-black rounded-[20px] bg-white"
+          >
+            Loremipsumdolor
+          </button>
+        </div>
+        <div class="flex justify-around mt-5">
+          <div class="relative">
+            <img
+              src="publics/assets/images/top destination 1.jpg"
+              alt="top destination 1"
+              class="w-48 h-72 rounded-[20px]"
+            />
+            <div
+              class="absolute z-[1] top-0 flex flex-col justify-center items-center p-2 bg-[rgba(0,0,225,0.4)] h-[85%] rounded-[20px] text-white"
+            >
+              <p>Les Meilleures Destinations</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, vitae?
+              </p>
+            </div>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>lorem</p>
+          </div>
+          <div class="relative">
+            <img
+              src="publics/assets/images/top destination 2.jpg"
+              alt="top destination 2"
+              class="w-48 h-72 rounded-[20px]"
+            />
+            <div
+              class="absolute z-[1] top-0 flex flex-col justify-center items-center p-2 bg-[rgba(0,0,225,0.4)] h-[85%] rounded-[20px] text-white"
+            >
+              <p>Les Meilleures Destinations</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, vitae?
+              </p>
+            </div>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>lorem</p>
+          </div>
+          <div class="relative">
+            <img
+              src="publics/assets/images/top destination 3.jpg"
+              alt="top destination 3"
+              class="w-48 h-72 rounded-[20px]"
+            />
+            <div
+              class="absolute z-[1] top-0 flex flex-col justify-center items-center p-2 bg-[rgba(0,0,225,0.4)] h-[85%] rounded-[20px] text-white"
+            >
+              <p>Les Meilleures Destinations</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, vitae?
+              </p>
+            </div>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>lorem</p>
+          </div>
+          <div class="relative">
+            <img
+              src="publics/assets/images/top destination 4.jpg"
+              alt="top destination 4"
+              class="w-48 h-72 rounded-[20px]"
+            />
+            <div
+              class="absolute z-[1] top-0 flex flex-col justify-center items-center p-2 bg-[rgba(0,0,225,0.4)] h-[85%] rounded-[20px] text-white"
+            >
+              <p>Les Meilleures Destinations</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, vitae?
+              </p>
+            </div>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>lorem</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="pt-12 flex justify-between">
+          <h2>Latest Stories</h2>
+          <button
+            class="h-5 self-center rounded-[20px] border border-black bg-white"
+          >
+            Loremipsumdolor
+          </button>
+        </div>
+        <div class="relative flex gap-6">
+          <div class="sticky h-fit top-20">
+            <img
+              src="publics/assets/images/last storie.jpg"
+              alt="last storie"
+              class="w-[600px] h-96 rounded-[20px]"
+            />
+            <div>
+              <p>loremmm</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                <br />br Aut, veniam.
+              </p>
+              <p>loremmmm</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem qui
+                <br />
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="flex items-stretch gap-24">
+              <img
+                src="publics/assets/images/img 1 last storie.jpg"
+                alt=""
+                class="w-40 h-40 rounded-[20px] shrink-0 p-2"
+              />
+              <p class="flex flex-col justify-around">
+                lorem <br /><b class="text-[1.3em]"
+                  >Lorem ipsum dolor sit <br />amet consectetur adipisicing elit
+                  Odit<br />
+                  non</b
+                >
+                <br />Loremipsum
+              </p>
+            </div>
+            <div class="flex items-stretch gap-24">
+              <img
+                src="publics/assets/images/img 2 last storie.jpg"
+                alt=""
+                class="w-40 h-40 rounded-[20px] shrink-0 p-2"
+              />
+              <p class="flex flex-col justify-around">
+                <span>lorem</span>
+                <b class="text-[1.3em]"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit Odit
+                  non</b
+                >
+                <span>Loremipsum</span>
+              </p>
+            </div>
+            <div class="flex items-stretch gap-24">
+              <img
+                src="publics/assets/images/img 3 last storie.jpg"
+                alt=""
+                class="w-40 h-40 rounded-[20px] shrink-0 p-2"
+              />
+              <p class="flex flex-col justify-around">
+                lorem <br /><b class="text-[1.3em]"
+                  >Lorem ipsum dolor sit <br />amet consectetur adipisicing elit
+                  Odit<br />
+                  non</b
+                >
+                <br />Loremipsum
+              </p>
+            </div>
+            <div class="flex items-stretch gap-24">
+              <img
+                src="publics/assets/images/img 3 last storie.jpg"
+                alt=""
+                class="w-40 h-40 rounded-[20px] shrink-0 p-2"
+              />
+              <p class="flex flex-col justify-around">
+                lorem <br /><b class="text-[1.3em]"
+                  >Lorem ipsum dolor sit <br />amet consectetur adipisicing elit
+                  Odit<br />
+                  non</b
+                >
+                <br />Loremipsum
+              </p>
+            </div>
+            <div class="flex items-stretch gap-24">
+              <img
+                src="publics/assets/images/img 3 last storie.jpg"
+                alt=""
+                class="w-40 h-40 rounded-[20px] shrink-0 p-2"
+              />
+              <p class="flex flex-col justify-around">
+                lorem <br /><b class="text-[1.3em]"
+                  >Lorem ipsum dolor sit <br />amet consectetur adipisicing elit
+                  Odit<br />
+                  non</b
+                >
+                <br />Loremipsum
+              </p>
+            </div>
+            <div class="flex items-stretch gap-24">
+              <img
+                src="publics/assets/images/img 3 last storie.jpg"
+                alt=""
+                class="w-40 h-40 rounded-[20px] shrink-0 p-2"
+              />
+              <p class="flex flex-col justify-around">
+                lorem <br /><b class="text-[1.3em]"
+                  >Lorem ipsum dolor sit <br />amet consectetur adipisicing elit
+                  Odit<br />
+                  non</b
+                >
+                <br />Loremipsum
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
